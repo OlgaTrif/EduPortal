@@ -22,8 +22,8 @@ public void addCorsMappings(CorsRegistry registry) { registry.addMapping("/**");
 
 		return new BCryptPasswordEncoder();
 	}
-	public static void main(String[] args) { SpringApplication.run(Application.class);
-
+	public static void main(String[] args) {
+	SpringApplication.run(Application.class);
 	}
 }
 
